@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{background-color: rgb(186, 241, 201);}
+.global{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.icons{display: flex;
+justify-content:space-between;}
+.icons a{
+    margin: 0 5px;
+}
+
+.globe{
+    
+    background-color: cornflowerblue;margin: 0 auto;
+}
+/* header section */
+.head{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    }
+    li{
+        margin: 5% 3%;
+    }
+.header{
+    background:yellowgreen;
+}
+.logo{
+    padding: 1rem;
+    background: white;
+    border-radius: 2rem;
+}
+
+
+/* hero section */
+body, html{
+    height: 100%;
+}
+
+.hero{
+    height: 500px;
+    /* (not working in %) */
+    background-position: center;
+    background-image: url("salt lake.jpg");
+    background-repeat: no-repeat;
+    
+}
+.hero{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herospan{
+    padding: 2%;
+    
+    font-family: cursive;
+    font-size: 20px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* opacity: 0.5; */
+    color: rgb(14, 14, 14);
+    position: relative;
+    text-align: center;
+border-radius: 3rem;
+color: aliceblue;}
+
+    /* latest post section */
+    img{
+        width: 100%;
+        
+    }
+    .latest-post{
+        display: flex;
+        justify-content: space-around;
+        background-image: url('4.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: antiquewhite;
+    }
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+article{
+    background-color: rgba(208, 194, 194, 0.2);
+}
+    
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: black;
+       
+}
+aside{ background-color: rgba(240, 248, 255, 0.6);
+
+}
+a:hover{
+    background-color: blue;
+    font-size: large;
+    
+}
+    
+
+/* Recommended destinations */
+.recommended{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.a img{
+    height: 16rem;
+}
+.a{
+    margin: 0.5rem;
+}
+/* latest news */
+span p{
+    position: relative;
+    text-align: center;
+    font-size: larger;
+}
+span form{
+    position: relative;
+    text-align: center;
+}
+footer{
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px)
+{
+    .article{
+        display: flex;
+        flex-direction: column;
+            width: 100%;}
+        
+        .latest-post{
+            display: flex;
+            justify-content: space-around;
+            background-image: url('4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: antiquewhite;
+            flex-direction: column;
+        }
+
+    }
+    @media only screen and (min-width:900px)
+    {
+        body{background-color: rgb(241, 186, 229);}
+    }
